@@ -13,47 +13,53 @@
       <div class="jumbotron">
         <h1>What language should you learn?</h1>
       </div>
-      <form id="quiz">
+      <form id="whatLanguage">
           <div class="col-md-6" id="questions">
             <div class="row">
-              <h3>Frontend or Backend</h3>
-              <p><em>Would you like to work on what people see (Frontend) or how a site works (Backend)?</em></p>
-              <select class="form-control" id="FrontendBackend" required>
-                <option value="">Select your answer</option>
-                <option value="1">Frontend</option>
-                <option value="9">Backend</option>
-              </select>
-              <h3>Company size</h3>
-              <p><em>Would you like to work with a larger company or a smaller company/startup?</em></p>
-              <select class="form-control" id="CompanySize" required>
-                <option value="">Select preference</option>
-                <option value="9">Large</option>
-                <option value="1">Small</option>
-              </select>
-              <h3>Windows</h3>
-              <p><em>Do you prefer a windows environment?</em></p>
-              <select class="form-control" id="windows" required>
-                <option value="">Select preference</option>
-                <option value="1">Yes</option>
-                <option value="2">No preference</option>
-              </select>
-              <h3>Database</h3>
-              <p><em>Have you or would you like to work with databases?</em></p>
-              <select class="form-control" id="preference" required>
-                <option value="">Select preference</option>
-                <option value="2">Yes</option>
-                <option value="1">No</option>
-              </select>
-              <h3>Platform</h3>
-              <p><em>Would you like to work on Desktop applications, Web or Mobile?</em></p>
-              <select class="form-control" id="platform" required>
-                <option value="">Select preference</option>
-                <option value="1">Desktop</option>
-                <option value="2">Web</option>
-                <option value="3">Mobile</option>
-              </select>
-            </div>
-          <button type="submit" class="btn">Submit</button>
+              <div class="panel-heading">
+                <h2>Questions</h2>
+                <hr>
+              </div>
+              <div class="panel-body">
+                <h3>Frontend or Backend</h3>
+                <p><em>Would you like to work on what people see (Frontend) or how a site works (Backend)?</em></p>
+                <select class="form-control" id="FrontendBackend" required>
+                  <option value="">Select your answer</option>
+                  <option value="1">Frontend</option>
+                  <option value="9">Backend</option>
+                </select>
+                <h3>Company size</h3>
+                <p><em>Would you like to work with a larger company or a smaller company/startup?</em></p>
+                <select class="form-control" id="CompanySize" required>
+                  <option value="">Select preference</option>
+                  <option value="9">Large</option>
+                  <option value="1">Small</option>
+                </select>
+                <h3>Windows</h3>
+                <p><em>Do you prefer a windows environment?</em></p>
+                <select class="form-control" id="windows" required>
+                  <option value="">Select preference</option>
+                  <option value="1">Yes</option>
+                  <option value="2">No preference</option>
+                </select>
+                <h3>Database</h3>
+                <p><em>Have you, or would you like to work with databases?</em></p>
+                <select class="form-control" id="preference" required>
+                  <option value="">Select preference</option>
+                  <option value="2">Yes</option>
+                  <option value="1">No</option>
+                </select>
+                <h3>Platform</h3>
+                <p><em>Would you like to work on Desktop applications, Web or Mobile?</em></p>
+                <select class="form-control" id="platform" required>
+                  <option value="">Select preference</option>
+                  <option value="1">Desktop</option>
+                  <option value="2">Web</option>
+                  <option value="3">Mobile</option>
+                </select>
+              </div>
+            <button type="submit" class="btn">Submit</button>
+          </div>
       </form>
     </div>
     <div class="col-md-6">
@@ -79,7 +85,7 @@
       </div>
       <div id="java">
         <a href="https://www.epicodus.com/java"><img src="img/java.png" alt="java"></a>
-        <p><a href="https://www.epicodus.com/java">Java</a> Java is a set of computer software and specifications developed by Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment.</p>
+        <p><a href="https://www.epicodus.com/java">Java</a> is a set of computer software and specifications developed by Sun Microsystems, which was later acquired by the Oracle Corporation, that provides a system for developing application software and deploying it in a cross-platform computing environment.</p>
         <ul>
           <li>Easy to learn</li>
           <li>Platform Independent</li>

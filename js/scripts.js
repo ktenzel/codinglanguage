@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  $("form#quiz").submit(function(){
+  $("form#whatLanguage").submit(function(){
     event.preventDefault();
-    var activityLevel = $("input:radio[name=activityLevel]:checked").val();
 
     if (activityLevel === "notActive") {
       result = add()

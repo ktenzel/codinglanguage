@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(http://33.media.tumblr.com/377f26c88156cb12d8f0d5c050e70391/tumblr_nazl9xNuuo1r83cqho1_r2_500.gif);
+  background-image: url(https://media.giphy.com/media/3oKIPp2A5F5s7ZrLfa/giphy.gif);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,17 +20,32 @@ em {
   font-style: italic;
 }
 
+.panel-heading {
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 .btn {
   margin-top: 10px;
   margin-bottom: 10px;
   color: black;
+  padding-bottom: 0px;
+}
+
+.panel-body {
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 #questions {
   color: white;
   background-color: #687589;
-  border-left: 10px solid #687589;
-  border-right: 10px solid #687589;
+  /*border-left: 10px solid #687589;
+  border-right: 10px solid #687589;*/
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #ruby, #react, #java {
@@ -39,4 +54,5 @@ em {
   border-left: 10px solid #687589;
   border-right: 10px solid #687589;
   display: none;
+  border-radius: 5px;
 }
