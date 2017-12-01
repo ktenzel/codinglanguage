@@ -1,0 +1,21 @@
+.jumbotron {
+  background-image: url(http://33.media.tumblr.com/377f26c88156cb12d8f0d5c050e70391/tumblr_nazl9xNuuo1r83cqho1_r2_500.gif);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+img {
+  float: left;
+}
+
+em {
+  font-style: italic;
+}
+
+#answerSki, #answerRiver, #answerCanyon, #answerVegas, #answerBeach {
+  display: none;
+}

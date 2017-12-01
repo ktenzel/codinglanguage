@@ -2,12 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="js/scripts.js">
-
-    </script>
-    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.2.1.js "type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <title>Choose a language</title>
   </head>
   <body>
-    <button type="button" name="button">submit</button>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>What language should you learn?</h1>
+      </div>
+      <form id="quiz">
+          <div class="col-md-6">
+            <div class="row">
+              <h3>Frontend or Backend</h3>
+              <p><em>Would you like to work on what people see (Frontend) or how a site works (Backend).</em></p>
+              <select class="form-control" id="season" required>
+                <option value="">Select your answer</option>
+                <option value="1">Frontend</option>
+                <option value="2">Backend</option>
+              </select>
+              <h3>Company size</h3>
+              <select class="form-control" id="season" required>
+                <option value="">Select age</option>
+                <option value="1">0 - 15</option>
+                <option value="2">16 - 30</option>
+                <option value="3">31 - 45</option>
+                <option value="4">45 - 60+</option>
+              </select>
+            </div>
+          <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div id="answerSki">
+        <img src="img/c.png" alt="C">
+        <p>Lorem ipsum dolor amet lumbersexual poutine keytar quinoa biodiesel vaporware art party pickled celiac gastropub single-origin coffee vinyl distillery. Poutine squid kale chips viral, raw denim umami man bun asymmetrical bicycle rights XOXO roof party jean shorts polaroid put a bird on it.</p>
+      </div>
+      <div id="answerRiver">
+        <img src="img/drupal.png" alt="drupal">
+        <p>Lorem ipsum dolor amet lumbersexual poutine keytar quinoa biodiesel vaporware art party pickled celiac gastropub single-origin coffee vinyl distillery. Poutine squid kale chips viral, raw denim umami man bun asymmetrical bicycle rights XOXO roof party jean shorts polaroid put a bird on it.</p>
+      </div>
+      <div id="answerCanyon">
+        <img src="img/java.png" alt="java">
+        <p>Lorem ipsum dolor amet lumbersexual poutine keytar quinoa biodiesel vaporware art party pickled celiac gastropub single-origin coffee vinyl distillery. Poutine squid kale chips viral, raw denim umami man bun asymmetrical bicycle rights XOXO roof party jean shorts polaroid put a bird on it.</p>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
