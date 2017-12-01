@@ -9,8 +9,13 @@
 }
 img {
   float: left;
+  margin-right: 20px;
+  background-color: white;
 }
 
+a {
+  color: gold;
+}
 em {
   font-style: italic;
 }
@@ -27,6 +32,11 @@ em {
   border-left: 10px solid #687589;
   border-right: 10px solid #687589;
 }
+
 #ruby, #react, #java {
+  color: white;
+  background-color: #687589;
+  border-left: 10px solid #687589;
+  border-right: 10px solid #687589;
   display: none;
 }
