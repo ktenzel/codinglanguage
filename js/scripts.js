@@ -17,7 +17,7 @@ $(document).ready(function(){
   }
 
   function react(input1, input2, input3, input4, input5){
-    if ((input1 + input2 + input3 + input4 + input5) < 9) {
+    if ((input1 + input2 + input3 + input4 + input5) <= 9) {
       return true;
     } else {
       return false;
@@ -49,16 +49,16 @@ $(document).ready(function(){
     event.preventDefault();
     debugger;
     if (java(FrontendBackend, CompanySize, windows, preference, platform)){
-      $("#java").show();
+      $("#java").fadeIn();
       $("#react").hide();
       $("#ruby").hide();
     } else if (ruby(FrontendBackend, CompanySize, windows, preference, platform)){
       $("#java").hide();
       $("#react").hide();
-      $("#ruby").show();
+      $("#ruby").fadeIn();
     } else if (react(FrontendBackend, CompanySize, windows, preference, platform)){
       $("#java").hide();
-      $("#react").show();
+      $("#react").fadeIn();
       $("#ruby").hide();
     } else {
       console.log("else");
