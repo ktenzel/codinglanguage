@@ -16,18 +16,17 @@ https://ktenzel.github.io/codinglanguage/
 
 ## Known Bugs
 
-_language logos are showing outside of the div_
+_the images in the answers are not blocked in with the divs, they should all have a background behind them.-
 
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{bootstrap.css 3.7
+  jquery-3.2.1.js
+  chrome for debugging
+  atom . for building.}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
 Copyright (c) 2016 **_{List of contributors or company name}_**

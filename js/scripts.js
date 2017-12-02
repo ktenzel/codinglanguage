@@ -43,11 +43,12 @@ $(document).ready(function(){
     var preference = parseInt($("#preference").val());
     var platform = parseInt($("#platform").val());
 
+    var name = $("input#name").val();
 
 
 
     event.preventDefault();
-    debugger;
+    $(".formOutput").text(name + ", you should try the language ")
     if (java(FrontendBackend, CompanySize, windows, preference, platform)){
       $("#java").fadeIn();
       $("#react").hide();
